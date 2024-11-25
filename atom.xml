@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>BitDevs Córdoba</title>
+    <subtitle>BitDevs Córdoba es una comunidad en el area de Córdoba Capital para aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos relacionados.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://bitdevscordoba.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://bitdevscordoba.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-11-27T00:00:00+00:00</updated>
+    <id>https://bitdevscordoba.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>BitDevs Córdoba Seminario Socrático #0</title>
+        <published>2024-11-27T00:00:00+00:00</published>
+        <updated>2024-11-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bitdevscordoba.github.io/socratic-seminar-0/"/>
+        <id>https://bitdevscordoba.github.io/socratic-seminar-0/</id>
+        
+        <content type="html" xml:base="https://bitdevscordoba.github.io/socratic-seminar-0/">&lt;h3 id=&quot;agenda&quot;&gt;Agenda&lt;&#x2F;h3&gt;
+&lt;p&gt;18:30hs Previa con pizza y cerveza&lt;br &#x2F;&gt;
+19:00hs Seminario Socrático donde revisamos múltiples temas relacionados con Bitcoin&lt;br &#x2F;&gt;
+20:00hs Continuamos en un bar&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ubicacion&quot;&gt;Ubicación&lt;&#x2F;h3&gt;
+&lt;p&gt;El evento se organiza dentro del espacio de &lt;strong&gt;Bitcoin School Argentina&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;p&gt;Bv. Chacabuco 625&lt;br &#x2F;&gt;
+2 A, Salón Principal&lt;br &#x2F;&gt;
+Córdoba, Argentina X5000&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;qKsJHTbN6XiK1h717&quot;&gt;Map&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;anuncios&quot;&gt;Anuncios&lt;&#x2F;h3&gt;
+&lt;p&gt;Estamos muy felices de introducir nuestro primer &lt;a href=&quot;&#x2F;about&quot;&gt;Seminario Socrático&lt;&#x2F;a&gt;!
+Un especial agradecimiento a nuestros sponsors &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoinschoolar.com&#x2F;&quot;&gt;Bitcoin School Argentina&lt;&#x2F;a&gt; por el espacio y
+a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.libreriadesatoshi.com&#x2F;b4os&quot;&gt;B4OS&lt;&#x2F;a&gt; por las bebidas y la comida.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recordatorios&quot;&gt;Recordatorios&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;No se permiten fotografías, vídeos o grabaciones de audio&lt;&#x2F;li&gt;
+&lt;li&gt;Nos adherimos a &quot;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.chathamhouse.org&#x2F;about-us&#x2F;chatham-house-rule&quot;&gt;the Chatham House Rule&lt;&#x2F;a&gt;&quot;&lt;&#x2F;li&gt;
+&lt;li&gt;Deja el espacio del encuentro tan limpio como lo encontraste.&lt;&#x2F;li&gt;
+&lt;li&gt;Sugiere temas para el siguiente Seminario Socrático! &lt;a href=&quot;&#x2F;about&#x2F;find-topics&quot;&gt;¿Donde encontrar temas para futuros seminarios?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;seminario-socratico&quot;&gt;Seminario Socrático&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;estadisticas-de-la-red&quot;&gt;Estadísticas de la Red&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;mempool.space&#x2F;&quot;&gt;mempool.space&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoin.clarkmoody.com&#x2F;dashboard&#x2F;&quot;&gt;clarkmoody.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;eventos&quot;&gt;Eventos&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;btcplusplus.dev&#x2F;conf&#x2F;floripa&quot;&gt;bitcoin++: Florianópolis&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;6.tabconf.com&#x2F;&quot;&gt;TABConf7&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;noticias&quot;&gt;Noticias&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;financiacion&quot;&gt;Financiación&lt;&#x2F;h5&gt;
+&lt;h5 id=&quot;recursos&quot;&gt;Recursos&lt;&#x2F;h5&gt;
+&lt;h5 id=&quot;otros&quot;&gt;Otros&lt;&#x2F;h5&gt;
+&lt;h4 id=&quot;nuevos-trabajos-e-investigaciones&quot;&gt;Nuevos trabajos e investigaciones&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;proyectos-l1&quot;&gt;Proyectos L1&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;prs&quot;&gt;PRs&lt;&#x2F;h5&gt;
+&lt;h5 id=&quot;issues&quot;&gt;Issues&lt;&#x2F;h5&gt;
+&lt;h5 id=&quot;wallets&quot;&gt;Wallets&lt;&#x2F;h5&gt;
+&lt;h5 id=&quot;otros-1&quot;&gt;Otros&lt;&#x2F;h5&gt;
+&lt;h4 id=&quot;proyectos-l-2-3-4&quot;&gt;Proyectos L{2,3,4,...}&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;prs-1&quot;&gt;PRs&lt;&#x2F;h5&gt;
+&lt;h5 id=&quot;issues-1&quot;&gt;Issues&lt;&#x2F;h5&gt;
+&lt;h5 id=&quot;wallets-1&quot;&gt;Wallets&lt;&#x2F;h5&gt;
+&lt;h5 id=&quot;otros-2&quot;&gt;Otros&lt;&#x2F;h5&gt;
+&lt;h4 id=&quot;oportunidades-educativas-o-laborales&quot;&gt;Oportunidades educativas o laborales&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoinerjobs.com&#x2F;&quot;&gt;Bitcoiner Jobs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.summerofbitcoin.org&#x2F;&quot;&gt;Summer of Bitcoin&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.libreriadesatoshi.com&#x2F;b4os&quot;&gt;B4OS&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;learning.chaincode.com&#x2F;&quot;&gt;Chaincode Labs: Bitcoin and Lightning Protocol Development Education&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
