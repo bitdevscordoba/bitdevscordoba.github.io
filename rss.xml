@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>BitDevs Córdoba</title>
+      <link>https://bitdevscordoba.github.io</link>
+      <description>BitDevs Córdoba es una comunidad en el area de Córdoba Capital para aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos relacionados.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://bitdevscordoba.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 27 Nov 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Seminario Socrático #0</title>
+          <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://bitdevscordoba.github.io/socratic-seminar-0/</link>
+          <guid>https://bitdevscordoba.github.io/socratic-seminar-0/</guid>
+          <description xml:base="https://bitdevscordoba.github.io/socratic-seminar-0/">&lt;h3 id=&quot;agenda&quot;&gt;Agenda&lt;&#x2F;h3&gt;
+&lt;p&gt;18:30hs Previa con maní y cerveza&lt;br &#x2F;&gt;
+19:00hs Seminario Socrático donde revisamos múltiples temas relacionados con Bitcoin&lt;br &#x2F;&gt;
+20:00hs Cierre&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ubicacion&quot;&gt;Ubicación&lt;&#x2F;h3&gt;
+&lt;p&gt;El evento se organiza dentro del espacio de &lt;strong&gt;Bitcoin School Argentina&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;p&gt;Bv. Chacabuco 625&lt;br &#x2F;&gt;
+2 A, Salón Principal&lt;br &#x2F;&gt;
+Córdoba, Argentina X5000&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;qKsJHTbN6XiK1h717&quot;&gt;Map&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;anuncios&quot;&gt;Anuncios&lt;&#x2F;h3&gt;
+&lt;p&gt;Estamos muy felices de introducir nuestro primer &lt;a href=&quot;&#x2F;about&quot;&gt;Seminario Socrático&lt;&#x2F;a&gt;!
+Un especial agradecimiento a nuestros sponsors &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoinschoolar.com&#x2F;&quot;&gt;Bitcoin School Argentina&lt;&#x2F;a&gt; por el espacio y
+a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.libreriadesatoshi.com&#x2F;b4os&quot;&gt;B4OS&lt;&#x2F;a&gt; por las bebidas.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recordatorios&quot;&gt;Recordatorios&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;No se permiten fotografías, vídeos o grabaciones de audio&lt;&#x2F;li&gt;
+&lt;li&gt;Nos adherimos a &quot;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.chathamhouse.org&#x2F;about-us&#x2F;chatham-house-rule&quot;&gt;the Chatham House Rule&lt;&#x2F;a&gt;&quot;&lt;&#x2F;li&gt;
+&lt;li&gt;Deja el espacio del encuentro tan limpio como lo encontraste.&lt;&#x2F;li&gt;
+&lt;li&gt;Sugiere temas para el siguiente Seminario Socrático! &lt;a href=&quot;&#x2F;about&#x2F;find-topics&quot;&gt;¿Donde encontrar temas para futuros seminarios?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;temas&quot;&gt;Temas&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;estadisticas-de-la-red&quot;&gt;Estadísticas de la Red&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;mempool.space&#x2F;&quot;&gt;mempool.space&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoin.clarkmoody.com&#x2F;dashboard&#x2F;&quot;&gt;clarkmoody.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;eventos&quot;&gt;Eventos&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;btcplusplus.dev&#x2F;conf&#x2F;floripa&quot;&gt;bitcoin++: Florianópolis&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;6.tabconf.com&#x2F;&quot;&gt;TABConf7&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;nuevos-oficinas-de-desarrollo&quot;&gt;Nuevos oficinas de desarrollo&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;2140.dev&#x2F;&quot;&gt;2140 in Europe&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;lclhost.org&#x2F;&quot;&gt;Localhost Research in San Francisco&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;noticias&quot;&gt;Noticias&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.telekom.com&#x2F;en&#x2F;media&#x2F;media-information&#x2F;archive&#x2F;test-bitcoin-mining-infrastructure-for-surplus-energy-1082684&quot;&gt;Telekom tests Bitcoin mining with surplus energy&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;blog.btcpayserver.org&#x2F;case-study-namecheap&#x2F;&quot;&gt;Namecheap processes 1.1m transactions with BTCPay&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;lanzamientos&quot;&gt;Lanzamientos&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoincore.org&#x2F;en&#x2F;releases&#x2F;28.0&#x2F;&quot;&gt;Bitcoin Core 28.0&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;blog.zeusln.com&#x2F;introducing-zeus-white&#x2F;&quot;&gt;Zeus White&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoinmagazine.com&#x2F;business&#x2F;lightspark-announces-new-bitcoin-l2-and-upgraded-uma-capabilities&quot;&gt;Lightspark unveils an L2 using statechains&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xcancel.com&#x2F;boltzhq&#x2F;status&#x2F;1853834574914113720&quot;&gt;Boltz BOLT 12 Swaps&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;blog.btcpayserver.org&#x2F;btcpay-server-2-0&#x2F;&quot;&gt;BTCPay Server 2.0: our biggest update yet!&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;BtcpayServer&#x2F;status&#x2F;1851636343664791745&quot;&gt;video&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;hardware-wallets&quot;&gt;Hardware wallets&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;time.com&#x2F;7094838&#x2F;block-bitkey&#x2F;&quot;&gt;Bitkey featured in Time&#x27;s best inventions of 2024&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;jesseposner&#x2F;status&#x2F;1852394646997217742&quot;&gt;Bitkey Whitepaper&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;tether&quot;&gt;Tether&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;paoloardoino&#x2F;status&#x2F;1854897147499397437&quot;&gt;Tether crude oil purchase&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;tether.io&#x2F;news&#x2F;tether-commended-for-collaboration-with-canadian-law-enforcement-in-recovery-of-stolen-digital-assets&#x2F;&quot;&gt;Tether Commended for Collaboration with Canadian Law Enforcement in Recovery of Stolen Digital Assets&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;Tether_to&#x2F;status&#x2F;1856019304031846811&quot;&gt;Tether Wallet Dev Kit - X announcement&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;wallet.tether.io&#x2F;&quot;&gt;Marketing site&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;mineria&quot;&gt;Minería&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.mining.build&#x2F;blog&#x2F;introducing-proto-building-the-future-of-bitcoin-mining-hardware-2&#x2F;&quot;&gt;Introducing Proto: Building the future of bitcoin mining hardware&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;estado&quot;&gt;Estado&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;TFTC21&#x2F;status&#x2F;1859636488281186736&quot;&gt;Bitcoin Act 2024&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;financiacion&quot;&gt;Financiación&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;blockstream.com&#x2F;press-releases&#x2F;2024-10-15-blockstream-secures-210m-dollars-led-fulgur-ventures-drive-layer-2-growth-expand-bitcoin-treasury&#x2F;&quot;&gt;Blockstream raises $210M from Fulgur etc.&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;1a1z.com&#x2F;fund.html&quot;&gt;Report: Building Bitcoin - Funding a $1.2 Trillion Dollar Project&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;recursos&quot;&gt;Recursos&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoinops.org&#x2F;en&#x2F;bitcoin-core-28-wallet-integration-guide&#x2F;&quot;&gt;Guide for Wallets Employing Bitcoin Core 28.0 Policies&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;emailbtc.net&#x2F;&quot;&gt;EmailBTC&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitvmx.org&#x2F;&quot;&gt;BitVMX website&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoin-balance-api.com&#x2F;&quot;&gt;Bitcoin Balance API&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;spacesprotocol&#x2F;fabric&quot;&gt;Fabric, DNS resolver for spaces&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bitcoin-dev-project&#x2F;battle-of-galen-erso&quot;&gt;Battle of Galen Erso&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;delvingbitcoin.org&#x2F;t&#x2F;libbitcoin-for-core-people&#x2F;1222&quot;&gt;Libbitcoin for Core people&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;curiosidades&quot;&gt;Curiosidades&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=bJiOia5PoGE&quot;&gt;Satoshi9000 random number generator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;lightning&quot;&gt;Lightning&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;delvingbitcoin.org&#x2F;t&#x2F;ln-summit-2024-notes-summary-commentary&#x2F;1198&quot;&gt;LN Summit 2024 Notes &amp;amp; Summary&#x2F;Commentary&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;realtbast&#x2F;status&#x2F;1834213774674247987&quot;&gt;0 fee lightning tx&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;sincronizacion-de-la-cadena&quot;&gt;Sincronización de la cadena&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;evoskuil&#x2F;status&#x2F;1847673128073187536&quot;&gt;libbitcoin syncs full blockchain in 1 hour&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;runas-e-inscripciones&quot;&gt;Runas e inscripciones&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;mononautical&#x2F;status&#x2F;1851830349208363379&quot;&gt;Runes mint timelapse&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2410.11295&quot;&gt;BRC20 Pinning Attack&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;silent-payments&quot;&gt;Silent Payments&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoin.design&#x2F;guide&#x2F;how-it-works&#x2F;silent-payments&#x2F;&quot;&gt;Bitcoin Design Guide: Silent Payments&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;post-quantum&quot;&gt;Post Quantum&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;cryptoquick&#x2F;bips&#x2F;blob&#x2F;p2qrh&#x2F;bip-p2qrh.mediawiki&quot;&gt;QuBit - P2QRH spending rules&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;n1ckler&#x2F;status&#x2F;1854552545084977320&quot;&gt;Post Quantum Sigs with GSR&lt;&#x2F;a&gt; - &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;delvingbitcoin.org&#x2F;t&#x2F;winternitz-one-time-signatures-contrasting-between-lisp-and-script&#x2F;1255&quot;&gt;Delving Post&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;censura&quot;&gt;Censura&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;drops.dagstuhl.de&#x2F;entities&#x2F;document&#x2F;10.4230&#x2F;LIPIcs.AFT.2024.12&quot;&gt;Payment Censorship in the Lightning Network Despite Encrypted Communication&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;delvingbitcoin.org&#x2F;t&#x2F;research-paper-on-ln-payment-censorship&#x2F;1248&quot;&gt;delvingbitcoin post&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;callebtc&#x2F;status&#x2F;1856679659523490046&quot;&gt;calle tweet&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;escalamiento&quot;&gt;Escalamiento&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;delvingbitcoin.org&#x2F;t&#x2F;a-fast-scalable-protocol-for-resolving-lightning-payments&#x2F;1233&quot;&gt;OPR - Offchain Payment Resolution Protocol&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;delvingbitcoin.org&#x2F;t&#x2F;superscalar-laddered-timeout-tree-structured-decker-wattenhofer-factories&#x2F;1143&quot;&gt;SuperScalar: Laddered Timeout-Tree-Structured Decker-Wattenhofer Factories&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;catprotocol.org&#x2F;&quot;&gt;CAT Protocol&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;mas-alla-del-codigo&quot;&gt;Más alla del código&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;papers.ssrn.com&#x2F;sol3&#x2F;papers.cfm?abstract_id=4985877&quot;&gt;The distributional consequences of Bitcoin&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bitcoin-cap&#x2F;bcap&quot;&gt;BCAP: Analyzing Bitcoin Consensus: Risks in Protocol Upgrades&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;moneyball&#x2F;status&#x2F;1854585339119341796&quot;&gt;Steve&#x27;s bcap tweet thread&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;criptografia&quot;&gt;Criptografía&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;reyify.com&#x2F;blog&#x2F;adaptors-generalised&#x2F;&quot;&gt;Adaptors generalized&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;mailing-list.bitcoindevs.xyz&#x2F;bitcoindev&#x2F;b0f40eab-42f3-4153-8083-b455fbd17e19n@googlegroups.com&#x2F;&quot;&gt;DLEQ BIP Draft&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;revelacion-de-vulnerabilidades&quot;&gt;Revelación de vulnerabilidades&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;delvingbitcoin.org&#x2F;t&#x2F;cve-2024-38365-public-disclosure-btcd-findanddelete-bug&#x2F;1184&quot;&gt;CVE-2024-38365 public disclosure (btcd &lt;code&gt;FindAndDelete&lt;&#x2F;code&gt; bug)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoincore.org&#x2F;en&#x2F;2024&#x2F;10&#x2F;08&#x2F;disclose-blocktxn-crash&#x2F;&quot;&gt;Disclosure of CVE-2024-35202&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoincore.org&#x2F;en&#x2F;2024&#x2F;10&#x2F;08&#x2F;disclose-large-inv-to-send&#x2F;&quot;&gt;Disclosure of DoS due to inv-to-send sets growing too large&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoincore.org&#x2F;en&#x2F;2024&#x2F;10&#x2F;08&#x2F;disclose-mutated-blocks-hindering-propagation&#x2F;&quot;&gt;Disclosure of hindered block propagation due to mutated blocks&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoincore.org&#x2F;en&#x2F;2024&#x2F;11&#x2F;05&#x2F;cb-stall-hindering-propagation&#x2F;&quot;&gt;Disclosure of hindered block propagation due to stalling peers&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;repositorios&quot;&gt;Repositorios&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;rust-bitcoin: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-bitcoin&#x2F;rust-bitcoin&#x2F;pull&#x2F;2945&quot;&gt;Support Testnet4 Network #2945&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;rust-bitcoin: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-bitcoin&#x2F;rust-bitcoin&#x2F;pull&#x2F;3450&quot;&gt;Add version three variant to transaction version #3450&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;rust-bitcoin: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-bitcoin&#x2F;rust-bitcoin&#x2F;pull&#x2F;2960&quot;&gt;Add the ChaCha20Poly1305 AEAD algorithm #2960&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;bitcoin-core&#x2F;secp256k1: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bitcoin-core&#x2F;secp256k1&#x2F;pull&#x2F;1479&quot;&gt;Add module &quot;musig&quot; that implements MuSig2 multi-signatures (BIP 327) #1479&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;bitcoin-core: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bitcoin&#x2F;bitcoin&#x2F;pull&#x2F;31130&quot;&gt;Drop miniupnp dependency #31130&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;bitcoin-core: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bitcoin&#x2F;bitcoin&#x2F;pull&#x2F;30592&quot;&gt;Remove mempoolfullrbf #30592&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;core-lightning: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ElementsProject&#x2F;lightning&#x2F;pull&#x2F;7494&quot;&gt;pay: Remember and update channel_hints across payments #7494&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;lnd: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lightningnetwork&#x2F;lnd&#x2F;pull&#x2F;9172&quot;&gt;cmd: allow deterministic macaroon derivation with lncli #9172&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Eclair: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ACINQ&#x2F;eclair&#x2F;pull&#x2F;2925&quot;&gt;Add support for RBF-ing splice transactions #2925&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;LDK: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lightningdevkit&#x2F;rust-lightning&#x2F;pull&#x2F;3179&quot;&gt;Add the core functionality required to resolve Human Readable Names #3179&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;LDK: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lightningdevkit&#x2F;rust-lightning&#x2F;pull&#x2F;3360&quot;&gt;Re-broadcast channel_announcements every six blocks for a week #3360&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;LDK: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lightningdevkit&#x2F;rust-lightning&#x2F;pull&#x2F;3207&quot;&gt;Include invoice requests in async payment onions&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;LDK: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lightningdevkit&#x2F;rust-lightning&#x2F;pull&#x2F;3283&quot;&gt;Support paying directly to Human Readable Names using bLIP 32 #3283&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;oportunidades-educativas-o-laborales&quot;&gt;Oportunidades educativas o laborales&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bitcoinerjobs.com&#x2F;&quot;&gt;Bitcoiner Jobs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.summerofbitcoin.org&#x2F;&quot;&gt;Summer of Bitcoin&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.libreriadesatoshi.com&#x2F;b4os&quot;&gt;B4OS&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;learning.chaincode.com&#x2F;&quot;&gt;Chaincode Labs: Bitcoin and Lightning Protocol Development Education&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+    </channel>
+</rss>
