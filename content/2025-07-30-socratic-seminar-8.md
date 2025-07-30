@@ -54,6 +54,9 @@ pero no esta permitido revelar quien hizo ningun comentario en particular. El ob
 - [non standard txs dataset](https://bitcoin-data.github.io/non-standard-transactions/)
 - [mining centralization index](https://mainnet.observer/charts/mining-pools-centralization-index-with-proxy-pools/?c)
 
+### Presentation
+- [Lucas Ontivero](https://github.com/lontivero/Explora) presents his work and researchs: [Wasabi Wallet and Artificial Intelligence](https://njump.me/naddr1qqc9wctnv93xjt2hv9kxcet594skuepdg9e8g6txd93kjctv94ykuar9d3kxjem9de3k2tttxamrqdfeqgsfkkqyus47w5uwagd28w2n0x6k80cd5p4xsqt7r3jmpzg2l0qq5wqrqsqqqa28gp7074)
+
 ### Temas seleccionados
 - [CTV + CSFS](#tema-principal-1)
 - [FROST](#tema-principal-2)
