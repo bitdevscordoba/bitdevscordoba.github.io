@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>
+        BitDevs Córdoba
+    </title>
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ff76f56428.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+<div class="Site">
+
+    <header class="Header">
+        <div class="Header-inner">
+            <div class="Header-logo">
+                <a href="/">BitDevs Córdoba</a>
+            </div>
+            <nav class="Header-nav">
+                <a href="/about">About</a>
+                <a href="/support" rel="noopener nofollow">Support</a>
+                
+                
+            </nav>
+        </div>
+        <div class="Header-border">
+            ==============================================================================================================================================================
+        </div>
+    </header>
+
+    
+<section>
+    <div class="Post">
+        <h1 class="Post-title">Seminario Socrático #6</h1>
+        <div class="Post-info">
+            <span>2025-05-27</span>
+            
+        </div>
+        
+
+        <div class="Post-content"><h3 id="agenda">Agenda</h3>
+<p>18:30hs Previa<br />
+19:00hs Seminario Socrático donde revisamos múltiples temas relacionados con Bitcoin<br />
+20:00hs Cierre</p>
+<h3 id="ubicacion">Ubicación</h3>
+<p>El evento se organiza dentro del espacio de <strong>Bitcoin School Argentina</strong>:</p>
+<p>Bv. Chacabuco 625<br />
+1º piso, Salón Principal<br />
+Córdoba, Argentina X5000</p>
+<p><a rel="noopener" target="_blank" href="https://maps.app.goo.gl/qKsJHTbN6XiK1h717">Map</a></p>
+<h3 id="anuncios">Anuncios</h3>
+<p>Bienvenidos a nuestro <a href="/about">Seminario Socrático</a>!
+Un especial agradecimiento a nuestros sponsors: <a rel="noopener" target="_blank" href="https://bitcoinschoolar.com/">Bitcoin School Argentina</a> por el espacio y
+a <a rel="noopener" target="_blank" href="https://www.libreriadesatoshi.com/b4os">B4OS</a> por las bebidas y el soporte técnico.</p>
+<h3 id="recordatorios">Recordatorios</h3>
+<ul>
+<li>No se permiten fotografías, vídeos o grabaciones de audio</li>
+<li>Nos adherimos a "<a rel="noopener" target="_blank" href="https://www.chathamhouse.org/about-us/chatham-house-rule">the Chatham House Rule</a>"</li>
+</ul>
+<hr />
+<p>Bajo estas reglas, cualquier participante del encuentro es libre de usar la informacion adquirida en la discusión,
+pero no esta permitido revelar quien hizo ningun comentario en particular. El objetivo es incrementar la apertura del debate.</p>
+<hr />
+<ul>
+<li>Deja el espacio del encuentro tan limpio como lo encontraste.</li>
+<li>Sugiere temas para el siguiente Seminario Socrático! <a href="/about/find-topics">¿Dónde encontrar temas para futuros seminarios?</a></li>
+</ul>
+<h3 id="oportunidades-educativas-o-laborales">Oportunidades educativas o laborales</h3>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://bitcoinerjobs.com/">Bitcoiner Jobs</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.summerofbitcoin.org/">Summer of Bitcoin</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.libreriadesatoshi.com/b4os">B4OS</a></li>
+<li><a rel="noopener" target="_blank" href="https://learning.chaincode.com/">Chaincode Labs: Bitcoin and Lightning Protocol Development Education</a></li>
+</ul>
+<h3 id="estadisticas-de-la-red">Estadísticas de la Red</h3>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://mempool.space/">mempool.space</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcoin.clarkmoody.com/dashboard/">clarkmoody.com</a></li>
+<li><a rel="noopener" target="_blank" href="https://utxo.live/">utxo.live</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcointreasuries.net/">bitcointreasuries.net</a></li>
+</ul>
+<h3 id="temas-seleccionados">Temas seleccionados</h3>
+<ul>
+<li><a href="https://bitdevscordoba.github.io/socratic-seminar-6/#relaypolicy">Relay Policy</a></li>
+</ul>
+<h3 id="lecturas-de-este-mes">Lecturas de este mes</h3>
+<p><a id="relaypolicy"></a></p>
+<h4 id="politica-de-transmision-op-return">Política de transmisión (OP_RETURN)</h4>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bitcoin/pull/32359">1st PR #32359 (Bitcoin Core)</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.twitch.tv/videos/2451181919">PR Review by Ava Chow</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/OrangeSurfBTC/status/1917147550462914837">@OrangeSurfBTC provides context for Peter Todd's OP_RETURN change on 𝕏</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bitcoin/pull/32406">2nd PR #32406</a></li>
+<li><a rel="noopener" target="_blank" href="https://groups.google.com/g/bitcoindev/c/d6ZO7gXGYbQ">bitcoin-dev: Relax OP_RETURN standardness restrictions</a></li>
+<li><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/addressing-community-concerns-and-objections-regarding-my-recent-proposal-to-relax-bitcoin-cores-standardness-limits-on-op-return-outputs/1697/1">Delving Bitcoin: Addressing community concerns and objections</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/glozow/status/1917980119106228587">@glozow: x post</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/supertestnet/status/1920352131791396930">@SuperTestnet: x post</a></li>
+</ul>
+<h5 id="recursos">Recursos:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://bitcoinops.org/en/blog/waiting-for-confirmation/">Bitcoin Ops Blog: internal mempool policy</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcoinmagazine.com/glossary/op_return">Definición de OP_RETURN (Bitcoin Magazine Glossary)</a></li>
+<li><a rel="noopener" target="_blank" href="https://datatracker.ietf.org/doc/html/rfc7282">An excellent example of the process of Rough Consensus</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcoin.stackexchange.com/questions/126208/why-would-anyone-use-op-return-over-inscriptions-aside-from-fees">Why would anyone use op_return over inscriptions aside from fees?</a></li>
+</ul>
+<h6 id="historia">Historia:</h6>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://blog.bitmex.com/dapps-or-only-bitcoin-transactions-the-2014-debate/">Bitmex (2022): "DApps or Only Bitcoin Transactions?"</a></li>
+</ul>
+<h5 id="posturas-contra-los-filtros">Posturas contra los filtros:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://blog.lopp.net/treatise-bitcoin-block-space-economics/">Lopp: A Treatise on Bitcoin Block Space Economics</a></li>
+<li><a rel="noopener" target="_blank" href="https://mailing-list.bitcoindevs.xyz/bitcoindev/QMywWcEgJgWmiQzASR17Dt42oLGgG-t3bkf0vzGemDVNVnvVaD64eM34nOQHlBLv8nDmeBEyTXvBUkM2hZEfjwMTrzzoLl1_62MYPz8ZThs=@wuille.net/">Pieter Wuille</a></li>
+<li><a rel="noopener" target="_blank" href="https://spiralbtc.substack.com/p/the-mevil-of-relay-policy">spiral: The MEVil of Relay Policy</a></li>
+<li><a rel="noopener" target="_blank" href="https://gist.github.com/instagibbs/c436110890ab25aa9997b13c2270d5ce">instagibbs: non-binding statement</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://gist.github.com/instagibbs/ee32be0126ec132213205b25b80fb3e8">instagibbs: mempool internal policy</a></li>
+</ul>
+</li>
+<li><a rel="noopener" target="_blank" href="https://bitcointalk.org/index.php?topic=5539943.msg65335891#msg65335891">gmaxwell</a></li>
+<li><a rel="noopener" target="_blank" href="https://habla.news/a/naddr1qqxnzdesxgerxdp58yenyvejqgswrlemlh2wgqc4jkds3d8ueqj9a2j3gcm7r48v9tskdd6rxsd7rtcrqsqqqa28wdzn0j">benthecarman: saving the mempool</a></li>
+<li><a rel="noopener" target="_blank" href="https://antoinep.com/posts/relay_policy_drama/">Antoine Poinsot: Relay Policy Drama</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://mailing-list.bitcoindevs.xyz/bitcoindev/rhfyCHr4RfaEalbfGejVdolYCVWIyf84PT2062DQbs5-eU8BPYty5sGyvI3hKeRZQtVC7rn_ugjUWFnWCymz9e9Chbn7FjWJePllFhZRKYk=@protonmail.com/">Antoine Poinsot intervention in mailing list</a></li>
+</ul>
+</li>
+</ul>
+<h5 id="posturas-pro-filtros">Posturas pro filtros:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://mailing-list.bitcoindevs.xyz/bitcoindev/f4f6831a-d6b8-4f32-8a4e-c0669cc0a7b8n@googlegroups.com/">Jason Hughes: propuesta pro Knots</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/cguida6/status/1920490816352485727">Chris Guida: opening statement btc++ debate</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/bitcoinwifey/status/1920279809210400979">Bitcoin Mechanic: btc++ talk</a></li>
+</ul>
+<h5 id="visualizaciones">Visualizaciones:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://mainnet.observer/charts/output-opreturn-amount/">Cumulative OP_RETURN Output Values</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/0x_orkun/status/1918395689505308971">Mining centralization vectors</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/mononautical/status/1919758548310823213">Brc-20 in op_return</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/mononautical/status/1919090261654638954">F2Pool quietly dropped their minimum relay fee</a></li>
+</ul>
+<h5 id="medios">Medios:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://bitcoinmagazine.com/technical/op_return-limits-bitcoins-battle-over-arbitrary-data">"OP_RETURN limits: Bitcoin’s battle over arbitrary data" (Bitcoin Magazine)</a></li>
+</ul>
+<h5 id="software-protocolos">Software &amp; Protocolos:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://geyser.fund/project/librerelay">LibreRelay</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://groups.google.com/g/bitcoindev/c/Q5j2Kb6XeHI">Standard Unstructured Annex</a></li>
+</ul>
+</li>
+<li><a rel="noopener" target="_blank" href="https://gist.github.com/mononaut/3d08be8a5c00a5e6c9a5641daf6b1338">Hop-Return, new op_return based metaprotocol</a></li>
+<li><a rel="noopener" target="_blank" href="https://docs.rebarlabs.io/shield/faq">Private Mempool services</a></li>
+<li><a rel="noopener" target="_blank" href="https://citrea.xyz/clementine_whitepaper.pdf">Clementine Paper</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/0x_orkun/status/1919383909717954584">BriberBroder</a></li>
+<li><a rel="noopener" target="_blank" href="https://slipstream.mara.com/">SLIPSTREAM (mara.com)</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/stutxo/status/1923023753040015687">Tx-Pigeon</a></li>
+<li><a rel="noopener" target="_blank" href="https://devpost.com/software/runtime-btc-knots-policy-changes">BTC Knots: add support for lua based tx-filter</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/OP_RETURN_Bot">OP_RETURN Bot on X</a></li>
+<li>Garbageman:
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/cguida6/status/1922845679677845532">cguida +1</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/theinstagibbs/status/1924784110754549900">instagibbs -1</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/peterktodd/status/1924517867652792342">peter todd -1</a></li>
+</ul>
+</li>
+</ul>
+<h5 id="estadisticas">Estadísticas:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/mononautical/status/1918736597899428223">Non standard txs mined since last halving</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcoin.stackexchange.com/questions/126131/whats-the-largest-size-op-return-payload-ever-created">What's the largest size OP_RETURN payload ever created?</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/lifofifo/status/1922695983512588482">Largest OP_RETURN ever</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/jimmysong/status/1922112890980729156">Cost of sending large op_returns with filters</a></li>
+<li><a rel="noopener" target="_blank" href="https://luke.dashjr.org/programs/bitcoin/files/charts/software.html">Node count: luke.dashjr.org</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/lopp/status/1921236512210899178">%2.75 node reachability increase</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/ottosch_/status/1922767643771126018">Costs of circumventing filters</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/sr_gi/status/1920991638215709143">@sr_gi: Knots vs Core</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/freeonlineuser/status/1922070187865493599">@freeonlineuser: Knots vs Core</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/jimmysong/status/1922319485941530961">OP_RETURN numbers up to May 13th</a></li>
+</ul>
+<h5 id="ejemplos-de-datos-arbitrarios-no-monetarios">Ejemplos de datos arbitrarios ("no monetarios"):</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://mempool.space/tx/64a4b1efaeedfe88596c118f7ba5b48cac498cbdb51bc3e8366edd0d20da2662?mode=details">OP_RETURN (1)</a></li>
+<li><a rel="noopener" target="_blank" href="https://mempool.space/tx/62d17dd978f04e547b0156412c1706d4589ed9fb8aeeef804d694c405c6e0a10">OP_RETURN (2)</a></li>
+<li><a rel="noopener" target="_blank" href="https://mempool.space/tx/ec93ef6935140d3604e8caac1784d2fb21963f279a5243a10c5365a400c4715d">OP_RETURN (3)</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/rot13maxi/status/1923087628594794800">Taproot control block (4KiB)</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/mononautical/status/1906647846398640531">Someone inscribed this 3.7MB bitcoin music track via slipstream</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/mononautical/status/1920284764092670229">MARA does it again</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/mononautical/status/1921180666831499737">First mainnet use of the Taproot Annex</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/mononautical/status/1921557253368295733">a second jpeg has hit the annex</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="investigaciones-revisada-por-pares">Investigaciones revisada por pares:</h4>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://eprint.iacr.org/2025/692.pdf">DahLIAS: Discrete Logarithm-Based Interactive Aggregate Signatures</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/n1ckler/status/1912509120835363031">@n1ckler: announcement</a></li>
+<li><a rel="noopener" target="_blank" href="https://mailing-list.bitcoindevs.xyz/bitcoindev/be3813bf-467d-4880-9383-2a0b0223e7e5@gmail.com/">bitcoin-dev: Discrete Logarithm-Based Interactive Aggregate Signatures</a></li>
+</ul>
+</li>
+<li><a rel="noopener" target="_blank" href="https://eprint.iacr.org/2025/638.pdf">Round-Efficient Adaptively Secure Threshold Signatures with Rewinding</a></li>
+<li><a rel="noopener" target="_blank" href="https://eprint.iacr.org/2025/709.pdf">Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers</a></li>
+<li><a rel="noopener" target="_blank" href="https://eprint.iacr.org/2025/591.pdf">ColliderVM: Stateful Computation on Bitcoin without Fraud Proofs</a></li>
+<li><a rel="noopener" target="_blank" href="https://arxiv.org/abs/2504.16089">Carbyne: An Ultra-Lightweight DoS-Resilient Mempool for Bitcoin</a></li>
+<li><a rel="noopener" target="_blank" href="https://arxiv.org/abs/2504.20838">Bitcoin, a DAO?</a></li>
+<li><a rel="noopener" target="_blank" href="https://eprint.iacr.org/archive/2025/838/20250511:175206">CoinMaze (withdrawn): Privacy-Focused CoinJoin Protocol for Bitcoin</a></li>
+<li><a rel="noopener" target="_blank" href="https://eprint.iacr.org/2025/654.pdf">ECDSA Cracking Methods</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.cs.umd.edu/projects/coinscope/coinscope.pdf">Discovering Bitcoin's Public Topology and Influential Nodes</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://crypt-iq.github.io/coinscope-post.html">CoinScope: Mempool Partitioning and Identifying Mining Nodes</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="otras-publicaciones">Otras publicaciones:</h4>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://www.bis.org/publ/work1265.pdf">BIS: DeFiying gravity? An empirical analysis of cross-border Bitcoin, Ether and stablecoin flows</a></li>
+<li><a rel="noopener" target="_blank" href="https://hrf.org/latest/cisa-research-paper/">CISA Research Paper</a></li>
+</ul>
+<h4 id="covenants">Covenants:</h4>
+<h5 id="ctv-csfs">CTV + CSFS:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/evolving-the-ark-protocol-using-ctv-and-csfs/1602">Evolving the Ark protocol using CTV and CSFS</a></li>
+<li><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591">Robin Linus: BitVM CTV + CSFS</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.voltage.cloud/bitcoin-core">Voltage lanza testnet en la nube para CTV+CSFS</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/arshbot/awesome-ctv-csfs">Repositorio Awesome CTV con recursos sobre CTV y CSFS</a></li>
+<li><a rel="noopener" target="_blank" href="https://mailing-list.bitcoindevs.xyz/bitcoindev/Z8eUQCfCWjdivIzn@erisian.com.au/">Anthony Towns recursive covenant post</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/robin_linus/status/1908981041450385408">@robin_linus: x thread</a></li>
+<li><a rel="noopener" target="_blank" href="https://rubin.io/bitcoin/2025/04/04/delbrag/">Jeremy Rubin: delbrag (garbled circuits)</a></li>
+</ul>
+<h5 id="op-ctv-op-cat">OP_CTV + OP_CAT:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/monlovesmango/simple_covenant_vault">Simple bitcoin vault with OP_CAT vs OP_CTV</a></li>
+<li><a rel="noopener" target="_blank" href="https://whatthefork.wtf/">WhatTheFork Coin Voting Softforks</a></li>
+</ul>
+<h5 id="bitvm">BitVM:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://bitvmx.org/force/">Rootstock anuncia el primer hackatón de BitVM</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/StarkWareLtd/status/1910317337301152034">StarkWare combina ColliderScript y BitVM en un nuevo experimento</a></li>
+</ul>
+<h5 id="op-vault-vs-op-ccv">OP_VAULT vs OP_CCV:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bips/pull/1793">BIP draft: OP_CHECKCONTRACTVERIFY</a></li>
+<li><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/op-checkcontractverify-and-its-amount-semantic/1527/1">¿Qué es CCV? (OP_CHECKCONTRACTVERIFY)</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/jamesob/status/1919777050098868708">@jamesob: OP_CCV and OP_VAULT</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bips/pull/1848">OP_VAULT retirado en favor de OP_CCV</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/withdrawing-op-vault-bip-345/1670">delvingbitcoin: Withdrawing OP_VAULT (BIP-345)</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="mineria">Minería:</h4>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://www.jbs.cam.ac.uk/wp-content/uploads/2025/04/2025-04-cambridge-digital-mining-industry-report.pdf">Cambridge Digital Mining Industry Report</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/LukeDashjr/status/1912380597424550355">Bitmain's S21+ update breaks connectivity to Ocean and Braiins</a></li>
+<li><a rel="noopener" target="_blank" href="https://mainnet.observer/charts/mining-pools-centralization-index-with-proxy-pools/">Mining Centralization Index</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://b10c.me/blog/015-bitcoin-mining-centralization/">0xB10C: Bitcoin Mining Centralization</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/0xB10C/status/1912154976886890820">@0xB10C: x post</a></li>
+</ul>
+</li>
+<li><a rel="noopener" target="_blank" href="https://x.com/Marumover/status/1922470011739738349">Mining centralization X thread: Hash League</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcoinmagazine.com/technical/slice-making-pplns-work-for-demand-response">SLICE: Making PPLNS Work for Demand Response</a></li>
+<li><a rel="noopener" target="_blank" href="https://tether.io/news/tether-to-deploy-hashrate-on-ocean-advancing-decentralized-bitcoin-mining-infrastructure/">Tether is deploying hashrate to OCEAN</a></li>
+<li><a rel="noopener" target="_blank" href="https://zkshark.substack.com/p/parasite-pool-igniting-the-mining">Announcing Parasite mining pool</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/kram_btc/status/1921278516110459270">@kram_btc: x post</a></li>
+</ul>
+</li>
+</ul>
+<h5 id="hardware-abierto">Hardware abierto:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/256foundation/status/1917657025036591418">The first Ember One release is now available</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/BraiinsMining/status/1904601547855573458">Braiins Open Source Control Board</a></li>
+</ul>
+<h4 id="l1">L1:</h4>
+<ul>
+<li>
+<p><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/how-to-linearize-your-cluster/303/68">delvingbitcoin: How to linearize your cluster</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/dust-expiry-clean-the-utxo-set-from-spam/1707/19">delvingbitcoin: Dust Expiry, Clean the UTXO set from spam</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bips/pull/1841">Satoshis are proposed to oficially be satoshis</a></p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bips/pull/1821">BIP 177: Redefine Bitcoin’s Base Unit #1821</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bips/pull/618">BIP 176: Utilization of bits denomination #618</a></li>
+<li><a rel="noopener" target="_blank" href="https://event.bitcoin.design/#project-reczoE4WXQpKW5pZA">Designathon: Re-basing Bitcoin </a></li>
+</ul>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://groups.google.com/g/bitcoindev/c/j1zEky-3QEE">64-bit arithmetic in Script</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://groups.google.com/g/bitcoindev/c/qyId8Yto45M">Removing checkpoints in Bitcoin Core v30</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/swiftsync-speeding-up-ibd-with-pre-generated-hints-poc/1562">SwiftSync: Speeding up IBD 5x</a></p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://gist.github.com/RubenSomsen/a61a37d14182ccd78760e477c78133cd">Ruben Somsen's gist</a></li>
+<li><a rel="noopener" target="_blank" href="https://mailing-list.bitcoindevs.xyz/bitcoindev/CAPv7TjZTWhgzzdps3vb0YoU3EYJwThDFhNLkf4XmmdfhbORTaw@mail.gmail.com/">The Tragic Tale of BIP30</a></li>
+<li><a rel="noopener" target="_blank" href="https://groups.google.com/g/bitcoindev/c/aqHRfa0UWFo">BIP30 consensus failure vulnerability</a></li>
+</ul>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bips/pull/1835">bitcoin core PR #1835: (BIP48) add p2tr script type derivation</a></p>
+</li>
+</ul>
+<h5 id="cuantica">Cuántica:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://groups.google.com/g/bitcoindev/c/wKizvPUfO7w/m/hG9cwpOABQAJ">Post Quantum Signatures and Scaling Bitcoin</a></li>
+<li><a rel="noopener" target="_blank" href="https://mailing-list.bitcoindevs.xyz/bitcoindev/CADL_X_cF=UKVa7CitXReMq8nA_4RadCF==kU4YG+0GYN97P6hQ@mail.gmail.com/#r">Against Allowing Quantum Recovery of Bitcoin</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/cryptoquick/bips/blob/hourglass/bip-hourglass.mediawiki">Hourglass BIP</a></li>
+</ul>
+<h5 id="investigacion">Investigación:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/mononautical/status/1910703196672340007">@mononautical: signaturless inputs</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/mononautical/status/1921012232747421892">@mononautical: weighted multisig</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/rot13maxi/status/1909252898170564621">@rot13maxi (x thread): taplocks</a></li>
+</ul>
+<h5 id="musig">Musig:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/rust-bitcoin/rust-secp256k1/pull/716">rust-secp256k1: musig2 merged in to rust bitcoin</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/stutxo/status/1911227050255409246">69000/69000 musig2 key spend</a></li>
+</ul>
+<h5 id="consenso">Consenso:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bips/pull/1800">BIP 54: Consensus Cleanup</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://www.youtube.com/watch?v=-LGpW2PKwHA">Interview with Antoine Poinsot</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/darosior/status/1904947392744485062">@darosior: x post announcement of draft proposal</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="l2">L2:</h4>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://mempool.space/lightning">mempool.space: lightning dashboard</a></li>
+</ul>
+<h5 id="noticias">Noticias:</h5>
+<ul>
+<li>Stake n' Shake now accepts LN payments:
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/BitcoinMagazine/status/1923225678603784674">1</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/nitesh_btc/status/1924970192477520150">2</a></li>
+</ul>
+</li>
+<li><a rel="noopener" target="_blank" href="https://blog.second.tech/ark-liquidity-research-01/">second: Ark servers vs LSPs: Liquidity requirements for Lightning payments</a></li>
+<li><a rel="noopener" target="_blank" href="https://blog.second.tech/erk-update/">second: Erk, Ark without liveness requirements</a></li>
+<li><a rel="noopener" target="_blank" href="https://blog.arklabs.xyz/taproot-assets-in-ark/">arklabs: Exploring Taproot Assets in Ark</a></li>
+<li><a rel="noopener" target="_blank" href="https://docs.spark.money/spark/spark-tldr">spark: stablecoins on statechains</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.spark.money/news/magic-eden-spark-partnership">spark: Magic Eden to add support for Spark L2</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.spark.money/">spark: mainnet launch</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/buildonspark">X announcement</a></li>
+</ul>
+</li>
+<li><a rel="noopener" target="_blank" href="https://x.com/EliNagarBrr/status/1906631948325331051">Exodus Wallet elimina el soporte para Lightning</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/Breez_Tech/status/1907435825287041465">Breez anuncia una wallet similar a Aqua</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.bitgo.de/resources/blog/lightning-network/">BitGo offers Lightning</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/BitGo/status/1909638805981909063">@BitGo: x post</a></li>
+</ul>
+</li>
+<li><a rel="noopener" target="_blank" href="https://x.com/DiamondHandsLN/status/1922642890271916443/photo/1">LN Wallet Marketshare in Japan</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcoinmagazine.com/news/revolut-integrates-lightspark-for-lightning-fast-bitcoin-payments-in-the-uk-and-europe">Revolut integra Lightspark para pagos Lightning en UK y Europa</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/walletofsatoshi/status/1923875750165479768">Wallet of Satoshi announces non-custodial US-approved wallet</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/Breez_Tech/status/1925190330426499554">Breez Nodeless supports BOLT12 and BIP353</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.blog.citrea.xyz/unveiling-clementine/">Citrea lanza su red testnet Clementine</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/jbrill_/status/1924515004801233237">Autonomous Rekt: LLM Powered fuzzing with lightning payment rails</a></li>
+</ul>
+<h5 id="cambios-relevantes">Cambios relevantes:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://lightningdevkit.org/blog/announcing-vss/">LDK: announcing VSS</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/ACINQ/eclair/pull/3064">eclair: Simplify channel keys management PR #3064</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/lightningdevkit/rust-lightning/pull/3593">LDK: implement BOLT 12 Proof of Payment PR #3593</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/lightning/bolts/pull/1240">bolts: BOLT 12 - re-add recurrence support</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/ElementsProject/lightning/pull/8227">core lightning: Add LSPS0 Client and Service Plugin</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/lightning/bolts/pull/1242">bolts: Make the payment secret mandatory for BOLT11</a></li>
+</ul>
+<h5 id="investigacion-1">Investigación:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="http://ijns.jalaxy.com.tw/contents/ijns-v99-n6/ijns-2099-v99-n6-p31-0.pdf">A Novel Off-Chain Transaction Framework for Channel Cooperation</a></li>
+<li><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/path-queries-addressing-payment-reliability-and-routing-limitations/1672">Path Queries: Addressing Payment Reliability and Routing Limitations</a></li>
+</ul>
+<h5 id="herramientas">Herramientas:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/bjohnson5/blast">BLAST: Big Lightning Automated Simulation Tool</a></li>
+</ul>
+<h4 id="l3">L3:</h4>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/fedimint/fedimint/releases">Fedimint v0.7.1</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.nostrly.com/cashu-nutlock/">Herramienta para crear multisigs de ecash (Cashu Nutlock)</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.nostrly.com/cashu-witness/">Herramienta para gastar multisigs de ecash (Cashu Witness)</a></li>
+</ul>
+<h4 id="privacidad">Privacidad:</h4>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://payjoindevkit.org/2025/03/18/the-evolution-of-payjoin/">The Evolution of Payjoin</a></li>
+</ul>
+<h4 id="wallets">Wallets:</h4>
+<h5 id="descriptores">Descriptores:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/avoiding-xpub-derivation-reuse-across-wallets-in-a-ux-friendly-manner/1644">delvingbitcoin: avoiding xpub+derivation reuse across wallets, in a UX-friendly manner</a></li>
+<li><a rel="noopener" target="_blank" href="https://delvingbitcoin.org/t/a-simple-backup-scheme-for-wallet-accounts/1607">delvingbitcoin: standardized backup for wallet descriptors</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/joshdoman/descriptor-encrypt">descriptor-encrypt: a rust library to encrypt Bitcoin descriptors</a></li>
+</ul>
+<h5 id="dispositivos-de-hardware">Dispositivos de hardware:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://bitkey.build/building-better-bitcoin-self-custody/">Bitkey self-custody</a></li>
+<li><a rel="noopener" target="_blank" href="https://coldcard.com/docs/upgrade/">Coldcard co-sign</a></li>
+<li><a rel="noopener" target="_blank" href="https://frontier.frostsnap.com/">Frostsnap Multisig Hardware wallet</a></li>
+</ul>
+<h5 id="software">Software:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/WalletWasabi/WalletWasabi/releases/tag/v2.6.0">Wasabi moving away from centralized server</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/cakewallet/status/1924594310202155069">CakeWallet adds Payjoin V2</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/odudex/gpgap">GPGap: Air-gapped GPG signing Bitcoin-style</a></li>
+</ul>
+<h5 id="respaldo-de-datos">Respaldo de datos:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bitcoin/pull/31250">bitcoin core (PR #31250): disable creating and loading legacy wallets</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/bitcoin/bitcoin/pull/28710">bitcoin core (PR #28710): remove the legacy wallet and BDB dependency #28710</a></li>
+</ul>
+<h4 id="noticias-1">Noticias:</h4>
+<ul>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/lianabitcoin/status/1909573460910649832">The 68-bit Bitcoin puzzle has been cracked!</a></p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://mempool.space/pt/tx/a52c5046f3097a8c2bd3b9889df2fb47b104d47a16cc679d3357feec003db753">mempool.space tx</a></li>
+</ul>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/SomsenRuben/status/1907566218640269378">bitcoin-dev mailing list cancelled by Google</a></p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://gnusha.org/pi/bitcoindev/CABaSBaz9OTSVa1KNk0GOrH3T-kRF_7OPVu0AtpuaFGVB=zhdwQ@mail.gmail.com/">relevant discussion</a> from the last time this happened</li>
+<li><a rel="noopener" target="_blank" href="https://x.com/SomsenRuben/status/1907704105788645431">@SomsenRuben: it was restored the next day</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/jarolrod/status/1907480779078221842">@jarolrod: x post</a></li>
+</ul>
+</li>
+</ul>
+<h5 id="regulaciones-mercados">Regulaciones &amp; Mercados:</h5>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/valkenburgh/status/1909586503803470238">El Departamento de Justicia de EE. UU. dejará de perseguir servicios de mezclado</a></li>
+<li><a rel="noopener" target="_blank" href="https://en.cryptonomist.ch/2025/04/08/mastercard-and-kraken-revolutionize-crypto-payments-a-strategic-alliance-is-born-in-europe/">Mastercard podría integrar "Kraken Pay" como parte de una alianza estratégica</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.btcpolicy.org/articles/bitcoin-enhanced-treasury-bonds-an-idea-whose-time-has-come">Bitcoin Policy Institute propone “BitBonds” para adquirir bitcoin de forma neutral en el presupuesto</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.nobsbitcoin.com/trump-signs-resolution-blocking-irs-reporting-rule-for-defi-brokers/">Trump bloquea la norma del IRS sobre reportes de "brokers DeFi"</a></li>
+<li><a rel="noopener" target="_blank" href="https://github.com/bitcoin-dot-org/Bitcoin.org/pull/4254">bitcoin.org animations PR merged</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/GOPMajorityWhip/status/1925206873701048341">Blockchain Regulatory Certainty Act</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.cnbc.com/2025/05/19/jpmorgan-ceo-jamie-dimon-says-the-bank-will-let-clients-buy-bitcoin.html">JPMorgan CEO Jamie Dimon says the bank will let clients buy bitcoin</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.coindesk.com/markets/2025/05/16/wisconsin-sells-entire-350m-spot-bitcoin-etf-stake">Wisconsin Sells Entire $350M Spot Bitcoin ETF Stake</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcoinmagazine.com/news/occ-gives-banks-the-green-light-to-offer-bitcoin-and-crypto-custody-and-trading-services">OCC Gives Banks the Green Light to Offer Bitcoin and Crypto Custody and Trading Services</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcoinmagazine.com/news/abu-dhabis-sovereign-wealth-fund-reveals-408-million-investment-in-blackrocks-bitcoin-etf">El fondo soberano de Abu Dabi revela una inversión de 408 M$ en el ETF de bitcoin de BlackRock</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/BitcoinMagazine/status/1921885610077249614">Tweet</a></li>
+</ul>
+</li>
+<li><a rel="noopener" target="_blank" href="https://bitcoinmagazine.com/news/arizona-becomes-second-state-to-establish-strategic-bitcoin-reserve">Arizona se convierte en el segundo estado en establecer una reserva estratégica de bitcoin</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcoinmagazine.com/news/coinbase-to-acquire-bitcoin-and-crypto-options-platform-deribit-for-2-9b">Coinbase adquiere la plataforma de opciones de cripto Deribit por 2,9 B$</a></li>
+</ul>
+<h4 id="seguridad">Seguridad:</h4>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://blog.lopp.net/bitcoin-address-poisoning-attacks/">Bitcoin Address Poisoning Attacks</a></li>
+<li><a rel="noopener" target="_blank" href="https://blog.bitmex.com/bitcoins-duplicate-transactions/">bitmex: Bitcoin’s Duplicate Transactions</a></li>
+<li><a rel="noopener" target="_blank" href="https://blog.bitmex.com/the-timewarp-attack/">bitmex: The Timewarp Attack</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/PortlandHODL/status/1912935936851419424">Poisson Blocks DoS vector in Bitcoin at OP_NEXT by PortlandHODL</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/orangesurfbtc/status/1922805111522206100">@orangesurfbtc: NBitcoin Crash</a> and <a rel="noopener" target="_blank" href="https://github.com/MetacoSA/NBitcoin/pull/1269">fix</a>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/orangesurfbtc/status/1922805111522206100">Miners rolling nonstandard tx version numbers</a></li>
+</ul>
+</li>
+<li><a rel="noopener" target="_blank" href="https://x.com/afilini/status/1922972344579997760">NBX Explorer Nix-bitcoin Fix</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/cointelegraph/status/1922977880314654962">Coinbase PII Breach &amp; $20M Ransom</a></li>
+<li><a rel="noopener" target="_blank" href="https://antoinep.com/posts/cve-2025-43707/">Antoine Poinsot: detailed analysis of CVE-2025-43707, disclosure of rust-miniscript vulnerability</a></li>
+<li><a rel="noopener" target="_blank" href="https://bitcoinops.org/en/newsletters/2025/05/09/#bip30-consensus-failure-vulnerability">BIP30: vulnerabilidad de fallo de consenso</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/BtcpayServer/status/1922845019494318519">BTCPay Server cae por vulnerabilidad</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/orangesurfbtc/status/1922805111522206100">@orangesurfbtc: la causa de la vulnerabilidad BTCPay Server</a></li>
+<li><a rel="noopener" target="_blank" href="https://www.youtube.com/watch?v=m2V0fghHiCA">Poison blocks: DoS vector on block validation</a></li>
+</ul>
+<h4 id="herramientas-1">Herramientas:</h4>
+<ul>
+<li>
+<p><a rel="noopener" target="_blank" href="https://sovereigntools.com">Sovereigntools.com lanza comparativa de wallets de Bitcoin</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://bitcoin.softforks.org">Softfork research database</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://www.bitscript.app/sandbox">BitScript Sandbox</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://bitcoinops.org/en/matrix/">Bitcoin Feature Matrix</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://bitcoin-snapshots.jaonoctus.dev/">Snapshots de UTXOs para Bitcoin {main,test,sig}net</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://groups.google.com/g/bitcoindev/c/qyId8Yto45M">Removing checkpoints in Bitcoin Core v30</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://payjoinhackathon.netlify.app">Payjoin Demo</a> @riverKanies</p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://stablechannels.com">Stable Channels</a> @toneloc</p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/tonklaus/status/1918258692337676433">@tonklaus: x post</a></li>
+</ul>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/mempool/status/1911389181101679080">mempool.space: new visualization for taproot</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://research.mempool.space/block-size-report/">mempool.space: Block Size Report</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://research.mempool.space/utxo-set-report/">mempool.space: UTXO Set Report</a></p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/orangesurfbtc/status/1924604141977956745">@orangesurfbtc: x post</a></li>
+</ul>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://github.com/mempool/mempool/releases/tag/v3.2.0">mempool.space: v3.2.0</a></p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/mempool/status/1909532932211138574">@mempool: x post</a></li>
+</ul>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/peachbitcoin/status/1921147023262146785">Tx Batching: Peach GroupHug</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://github.com/AbdelStark/nostringer">Nostringer: unlinkable ring signatures (SAG) for Nostr pubkeys</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://www.nobsbitcoin.com/coinswap-v0-1-1/">Coinswap v0.1.1</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://github.com/dergoegge/fuzzamoto">fuzzamoto: fuzz testing tool for Bitcoin nodes</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://bitcoinmagazine.com/technical/secp256k1lab-an-insecure-python-library-that-makes-bitcoin-safer">secp256k1lab</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://github.com/lnbits/lnbits/releases/tag/v1.0.0">LNBits v1.0.0 release</a> - <a rel="noopener" target="_blank" href="https://docs.lnbits.org/guide/installation.html">AppImage</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://github.com/bitcoinppl/cove/releases/tag/v0.3.0">"Cove Wallet" iOS test flight: release 0.3.0</a> with TAPSIGNER support</p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://github.com/notmandatory/rust-cktap">rust-cktap</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/bitcoinplebdev/status/1905056787771842665">Nueva versión de Frostr con aplicación de escritorio y extensión para navegador</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/ElectrumWallet/status/1905024339759550760">electrum: soporte directo para nostr</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/ElectrumWallet/status/1912064951230886173">electrum: soporte para plugins de terceros</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/MrKukks/status/1906615058689335400">Lanzamiento de Private Pond (coordinador de Payjoin)</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://github.com/breez/wasm-example-app">SDK de Breez ahora con soporte para WASM</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/MichaelLevin/status/1915046268377952419">Lightning Terminal lanza la función “Auto Open”</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://github.com/lightningnetwork/lnd/releases/tag/v0.19.0-beta.rc4">LND 0.19.0-beta.rc4 - new RBF-based fee bumping for cooperative closes</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://btcaccepted.org/">BTCaccepted: A list of online only merchants</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/BtcpayServer/status/1923391823059333356">BTCPay Ghost integration</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://devpost.com/software/tanos">Tanos: Atomic swaps over nostr</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://www.coinbase.com/pt-br/blog/innovation-matters-coinbase-breaks-new-ground-with-mpc-security-technology">Coinbase MPC library released</a></p>
+</li>
+<li>
+<p><a rel="noopener" target="_blank" href="https://x.com/fedibtc/status/1915725879570804876">Swapido en la App Store de Fedi e integración con WebLN</a></p>
+</li>
+</ul>
+<h2 id="eventos">Eventos</h2>
+<h4 id="btc-transmisiones-en-vivo">BTC++, transmisiones en vivo</h4>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://x.com/i/broadcasts/1LyxBWjzpzLKN">1</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/i/broadcasts/1gqxvjqzbYQxB">2</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/i/broadcasts/1eaJbWPLBQYxX">3</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/i/broadcasts/1BRJjmEyWXVGw">4</a></li>
+</ul>
+</div>
+    </div>
+</section>
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://www.schema.org",
+  "@type": "LocalBusiness",
+  "name": "BitDevs Córdoba, Arg.",
+  "url": "https://bitdevscordoba.org/",
+  "description": "BitDevs Córdoba es una comunidad en el área de Córdoba Capital para todos aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos y aplicaciones relacionadas.",
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "BitDevs Córdoba"
+    }
+  ],
+  "sponsor": [
+    {
+      "@type": "Corporation",
+      "name": "Bitcoin School Argentina",
+      "url": "https://bitcoinschoolar.com/",
+      "sameAs": "https://twitter.com/BitcoinSchoolAR"
+    },
+    {
+      "@type": "Corporation",
+      "name": "B4OS",
+      "url": "https://www.libreriadesatoshi.com/b4os",
+      "sameAs": "https://x.com/libdesatoshi"
+    }
+  ],
+  "member": [
+    {
+      "@type": "Person",
+      "name": ""
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Córdoba",
+    "addressRegion": "Córdoba",
+    "addressCountry": "Argentina"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Organizer",
+    "email": "hola@bitcoinschoolar.com"
+  }
+}
+</script>
+
+
+      <footer class="Footer">
+    <div class="Footer-border">
+        ==============================================================================================================================================================
+    </div>
+    <div class="Footer-inner">
+        <div class="Footer-source">
+        
+            <a href="https:&#x2F;&#x2F;github.com&#x2F;bitdevscordoba&#x2F;bitdevscordoba.github.io" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        
+    </div>
+        <div class="Footer-rss">
+            <a href="/rss.xml">RSS Feed</a>
+        </div>
+    </div>
+</footer>
+
+    </div>
+
+</body>
+
+
+</html>
