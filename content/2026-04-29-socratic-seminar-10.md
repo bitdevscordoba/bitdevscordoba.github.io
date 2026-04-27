@@ -43,15 +43,6 @@ pero no esta permitido revelar quien hizo ningun comentario en particular. El ob
 - [B4OS](https://www.libreriadesatoshi.com/b4os)
 - [Chaincode Labs: Bitcoin and Lightning Protocol Development Education](https://learning.chaincode.com/)
 
-### Estadísticas de la Red
-- [mempool.space](https://mempool.space/)
-- [clarkmoody.com](https://bitcoin.clarkmoody.com/dashboard/)
-- [utxo.live](https://utxo.live/)
-- [bitcointreasuries.net](https://bitcointreasuries.net/)
-- [stratum.work](https://stratum.work/)
-- [non standard txs dataset](https://bitcoin-data.github.io/non-standard-transactions/)
-- [mining centralization index](https://mainnet.observer/charts/mining-pools-centralization-index-with-proxy-pools/?c)
-
 ##### Temas:
 - [Signet Slow Block Demo](https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367)
 - [How Wallet Fingerprinting can damage Payjoin Privacy](https://payjoin.org/blog/2026/03/25/wallet-fingerprints-payjoin-privacy/)
