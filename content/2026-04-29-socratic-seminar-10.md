@@ -62,7 +62,7 @@ pero no esta permitido revelar quien hizo ningun comentario en particular. El ob
     - [My First Petahash](https://pablohere.contrapeso.xyz/writings/my-first-petahash.html?ref=europeanbitcoiners.com)
 
 ##### Software:
-- [Cove Wallet Beta on Android](https://play.google.com/store/apps/details?id=org.bitcoinppl.cove)
-- [Lexe Public Launch](https://blog.lexe.app/public-launch/)
 - [fuzzor: continuous fuzzing infra](https://github.com/dergoegge/fuzzor)
 - [Bitcoin PIR](https://github.com/Bitcoin-PIR/Bitcoin-PIR)
+- [Cove Wallet Beta on Android](https://play.google.com/store/apps/details?id=org.bitcoinppl.cove)
+- [Lexe Public Launch](https://blog.lexe.app/public-launch/)
