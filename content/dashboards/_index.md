@@ -3,6 +3,7 @@ title = "Dashboards"
 description = "Paneles con informacion relevante sobre Bitcoin"
 +++
 
+- [bitview.space](https://bitview.space/)
 - [mempool.space](https://mempool.space/)
 - [clarkmoody.com](https://bitcoin.clarkmoody.com/dashboard/)
 - [utxo.live](https://utxo.live/)
