@@ -11,3 +11,6 @@ description = "Paneles con informacion relevante sobre Bitcoin"
 - [stratum.work](https://stratum.work/)
 - [non standard txs dataset](https://bitcoin-data.github.io/non-standard-transactions/)
 - [mining centralization index](https://mainnet.observer/charts/mining-pools-centralization-index-with-proxy-pools/?c)
+- [bitcoin node monitoring tool](https://bitnod.es/)
+- [merge mining monitor](https://mmm.deadmanoz.xyz/?)
+- [ASmap monitor: maps an ASN to IP networks under its control.](https://jorisstrakeljahn.github.io/asmap-dashboard/)
