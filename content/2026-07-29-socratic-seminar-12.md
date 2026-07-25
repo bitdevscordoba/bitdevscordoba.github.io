@@ -46,6 +46,7 @@ pero no esta permitido revelar quien hizo ningun comentario en particular. El ob
 - [Fee Selection for CTV-Based Mining Pool Fanouts](https://delvingbitcoin.org/t/fee-selection-for-ctv-based-mining-pool-fanouts)
 - [HOWLR: A Client-Driven Approach to BGP Hijack Detection](https://arxiv.org/abs/2606.21845)
 - [BIP3: Updated BIP Process](https://github.com/bitcoin/bips/blob/master/bip-0003.md)
+- [BIP-110: Reduced Data Temporary Softfork](https://bip110.org/)
 
 ### Lanzamientos:
 - [Signal + Bitcoin](https://radar.chat/)
