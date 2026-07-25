@@ -43,6 +43,7 @@ pero no esta permitido revelar quien hizo ningun comentario en particular. El ob
 - [Prototyping of self-evolving, democratic, and decentralized systems](https://arxiv.org/abs/2606.25559)
 - [Reverse engineering report: Canaan A3197S](https://github.com/CryptoIceMLH/Nano3S)
 - [Silent payments: harvest-now-decrypt-later attack](https://conduition.io/cryptography/hndl-silent-payments/)
+- [HOWLR: A Client-Driven Approach to BGP Hijack Detection](https://arxiv.org/abs/2606.21845)
 
 ### Lanzamientos:
 - [Signal + Bitcoin](https://radar.chat/)
