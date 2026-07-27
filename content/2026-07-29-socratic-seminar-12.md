@@ -43,6 +43,11 @@ pero no esta permitido revelar quien hizo ningun comentario en particular. El ob
 - [Prototyping of self-evolving, democratic, and decentralized systems](https://arxiv.org/abs/2606.25559)
 - [Reverse engineering report: Canaan A3197S](https://github.com/CryptoIceMLH/Nano3S)
 - [Silent payments: harvest-now-decrypt-later attack](https://conduition.io/cryptography/hndl-silent-payments/)
+- [Fee Selection for CTV-Based Mining Pool Fanouts](https://delvingbitcoin.org/t/fee-selection-for-ctv-based-mining-pool-fanouts)
+- [HOWLR: A Client-Driven Approach to BGP Hijack Detection](https://arxiv.org/abs/2606.21845)
+- [BIP3: Updated BIP Process](https://github.com/bitcoin/bips/blob/master/bip-0003.md)
+- [BIP-110: Reduced Data Temporary Softfork](https://bip110.org/)
+- [Lightning async payments: receiving while offline](https://lightningdevkit.org/blog/async-payments-receiving-while-offline)
 
 ### Lanzamientos:
 - [Signal + Bitcoin](https://radar.chat/)
