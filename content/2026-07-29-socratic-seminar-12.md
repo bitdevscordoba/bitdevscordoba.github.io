@@ -47,6 +47,7 @@ pero no esta permitido revelar quien hizo ningun comentario en particular. El ob
 - [HOWLR: A Client-Driven Approach to BGP Hijack Detection](https://arxiv.org/abs/2606.21845)
 - [BIP3: Updated BIP Process](https://github.com/bitcoin/bips/blob/master/bip-0003.md)
 - [BIP-110: Reduced Data Temporary Softfork](https://bip110.org/)
+- [Lightning async payments: receiving while offline](https://lightningdevkit.org/blog/async-payments-receiving-while-offline)
 
 ### Lanzamientos:
 - [Signal + Bitcoin](https://radar.chat/)
