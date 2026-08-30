@@ -78,7 +78,7 @@ pero no esta permitido revelar quien hizo ningun comentario en particular. El ob
 - [Unlock bitcoin as everyday money](https://block.xyz/inside/policies-to-unlock-bitcoin-as-everyday-money)
 - [Compact block reconstruction stats](https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052)
 - [Ark labs: Ark explained](https://docs.arklabs.xyz/ark/)
-- [Block filter design guide](https://rustaceanrob.com/blog/13-cbf-design)
+- [Block filter design guide](https://rustaceanrob.com/block-filter-design-guide/)
 
 ##### Privacidad:
 - [btc++: shielded CSV to improve onchain privacy](https://insider.btcpp.dev/p/some-of-us-still-want-private-bitcoin)
