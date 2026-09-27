@@ -225,7 +225,7 @@ a [B4OS](https://www.libreriadesatoshi.com/b4os) por las bebidas y el soporte t√
 - [Prevent future duplicate coinbase transactions as part of Consensus Cleanup](https://groups.google.com/g/bitcoindev/c/KRwDa8aX3to)
 
 #### Auditor√≠as
-- [BDK 2024 Q4 Code Audit](https://bitcoindevkit.org/blog/_2024-q4-code-audit/)
+- [BDK 2024 Q4 Code Audit](https://bitcoindevkit.org/blog/2024_q4_code_audit/)
 
 #### Wallet Backup
 - [File Format for Wallet Inheritance and Recovery](https://groups.google.com/g/bitcoindev/c/wDQBgo63zGU)
