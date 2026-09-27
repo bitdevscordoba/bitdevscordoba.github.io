@@ -268,7 +268,7 @@ pero no esta permitido revelar quien hizo ningun comentario en particular. El ob
 - [Autonomous Rekt: LLM Powered fuzzing with lightning payment rails](https://x.com/jbrill_/status/1924515004801233237)
 
 ##### Cambios relevantes:
-- [LDK: announcing VSS](https://lightningdevkit.org/blog/announcing-vss/)
+- [LDK: announcing VSS](https://lightningdevkit.org/blog/announcing-vss)
 - [eclair: Simplify channel keys management PR \#3064](https://github.com/ACINQ/eclair/pull/3064)
 - [LDK: implement BOLT 12 Proof of Payment PR \#3593](https://github.com/lightningdevkit/rust-lightning/pull/3593)
 - [bolts: BOLT 12 - re-add recurrence support](https://github.com/lightning/bolts/pull/1240)
