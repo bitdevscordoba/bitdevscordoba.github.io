@@ -38,7 +38,9 @@ pero no esta permitido revelar quien hizo ningun comentario en particular. El ob
 - Sugiere temas para el siguiente Seminario Socrático! [¿Dónde encontrar temas para futuros seminarios?](/about/find-topics)
 
 ### Temas:
-1. [BIP54: Consensus Cleanup](https://github.com/bitcoin/bips/blob/master/bip-0054.md) · [miner: Enforce Murch-Zawy rule (BIP54)](https://github.com/bitcoin/bitcoin/pull/35949)
-2. [Shielded Bitcoin: Private Transfers on the Bitcoin L1](https://delvingbitcoin.org/t/2912)
-3. [Scaling the Lightning Network with Practical Set Reconciliation](https://arxiv.org/abs/2608.15921)
-4. [BIP138: Compact Encryption Scheme for Non-seed Wallet Data](https://github.com/bitcoin/bips/blob/master/bip-0138.md) · [BIP461: Deterministic ECDSA Signatures](https://github.com/bitcoin/bips/blob/master/bip-0461.md)
+1. [BIP54: Consensus Cleanup](https://github.com/bitcoin/bips/blob/master/bip-0054.md)
+2. [miner: Enforce Murch-Zawy rule (BIP54)](https://github.com/bitcoin/bitcoin/pull/35949)
+3. [Shielded Bitcoin: Private Transfers on the Bitcoin L1](https://delvingbitcoin.org/t/2912)
+4. [Scaling the Lightning Network with Practical Set Reconciliation](https://arxiv.org/abs/2608.15921)
+5. [BIP138: Compact Encryption Scheme for Non-seed Wallet Data](https://github.com/bitcoin/bips/blob/master/bip-0138.md)
+6. [BIP461: Deterministic ECDSA Signatures](https://github.com/bitcoin/bips/blob/master/bip-0461.md)
